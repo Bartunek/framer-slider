@@ -35,6 +35,7 @@ export function Slider({ children, slideSize = 1 }) {
   useLayoutEffect(() => {
     const newActive = slide.get()
     if (newActive !== activeSlide) setActiveSlide(newActive)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
