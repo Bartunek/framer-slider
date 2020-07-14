@@ -15,7 +15,10 @@ function App() {
       <Slide>
         {range => <Content range={range}>Slide 1</Content>}
       </Slide>
-      <Slide>Slide 2</Slide>
+      <Slide>
+        <h3>Slide 2</h3>
+        <p><small>no progress bar on top</small></p>
+      </Slide>
       <Slide>
         {range => <Content range={range} scaleIn>Slide 3</Content>}
       </Slide>
