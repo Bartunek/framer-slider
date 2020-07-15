@@ -6,6 +6,7 @@ import { SlideStep as SlideAlt } from './components/SlideStep'
 import { Content } from './components/Content'
 import { Reveal } from './components/Reveal'
 import { Slide6 } from './components/slides/Slide6'
+import { Room } from './components/slides/Room'
 
 import './App.css'
 
@@ -23,7 +24,11 @@ function App() {
         {range => <Content range={range} scaleIn>Slide 3</Content>}
       </Slide>
       <Slide>
-        {range => <Content range={range}>Slide 4</Content>}
+        {range =>
+          <Content range={range} scaleIn fullSize>
+            {progress => <Room progress={progress} />}
+          </Content>
+        }
       </Slide>
       <Slide>
         {range => <Content range={range}>Slide 5</Content>}

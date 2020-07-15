@@ -14,7 +14,6 @@ export function Reveal({ children, range, itemCount }) {
 
   useEffect(() => {
     function updateActiveItem(newActive) {
-      console.log(newActive)
       if (newActive !== activeItem) setActiveItem(newActive)
     }
 
@@ -28,8 +27,6 @@ export function Reveal({ children, range, itemCount }) {
   useEffect(() => {
     setActiveItem(item.get())
   }, [item, setActiveItem])
-
-  console.log(activeItem)
 
   return (
     children(activeItem)

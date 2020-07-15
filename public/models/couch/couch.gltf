@@ -1,0 +1,304 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 5769982f30ff13dfba89076b81240843d8e6af81",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 331192,
+            "type": "VEC3",
+            "max": [
+                1.1636614799499512,
+                1.0472999811172486,
+                0.448544979095459
+            ],
+            "min": [
+                -1.1636614799499512,
+                0.060770995914936069,
+                -0.448544979095459
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 331192,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 331192,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 1941618,
+            "type": "SCALAR",
+            "max": [
+                331191.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 256,
+            "type": "VEC3",
+            "max": [
+                1.0559414625167847,
+                0.06379500031471253,
+                0.42328497767448428
+            ],
+            "min": [
+                -1.0586345195770264,
+                0.003000000026077032,
+                -0.3063346743583679
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 256,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 256,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 792,
+            "type": "SCALAR",
+            "max": [
+                255.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 3974304,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3974304,
+            "byteLength": 3974304,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7948608,
+            "byteLength": 2649536,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 10598144,
+            "byteLength": 7766472,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 18364616,
+            "byteLength": 3072,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 18367688,
+            "byteLength": 3072,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 18370760,
+            "byteLength": 2048,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 18372808,
+            "byteLength": 3168,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 18375976,
+            "uri": "couch_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000054080555855762216,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.974430561065674,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "a_couch_159_baseColor",
+            "uri": "couch_images\\a_couch_159_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "image",
+            "uri": "couch_images\\image.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "a_couch_159_normal",
+            "uri": "couch_images\\a_couch_159_normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "name": "couch_1_159A_01_mat",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.08110000193119049,
+                    0.08110000193119049,
+                    0.08110000193119049,
+                    1.0
+                ],
+                "roughnessFactor": 0.32120001316070559
+            },
+            "name": "couch_1_159A_02_mat",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "couch_159A_01",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "couch_159A_02",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5,
+                0.29999998211860659,
+                0.5
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3
+            ],
+            "name": "a_couch_1_159"
+        },
+        {
+            "mesh": 0,
+            "name": "couch_159A_01"
+        },
+        {
+            "mesh": 1,
+            "name": "couch_159A_02"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "couch_1_159A_01_mat::baseColor::image",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "image",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "couch_1_159A_01_mat::normal::image",
+            "sampler": 2,
+            "source": 2
+        }
+    ],
+    "scene": 0
+}

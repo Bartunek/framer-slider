@@ -22,11 +22,11 @@ export function SlideSmooth({ children, slideCount, backgroundColor, number, act
         backgroundColor
       }}
     >
-      {active
-        ? typeof children === 'function'
-          ? children(range)
-          : children
-        : null
+      {typeof children === 'function'
+        ? children(range)
+        : active
+          ? children
+          : null
       }
     </motion.div>
   )

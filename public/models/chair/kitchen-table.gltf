@@ -1,0 +1,202 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 5769982f30ff13dfba89076b81240843d8e6af81",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 9336,
+            "type": "VEC3",
+            "max": [
+                0.7433363795280457,
+                0.9941391348838806,
+                0.7433363795280457
+            ],
+            "min": [
+                -0.7433363795280457,
+                0.0,
+                -0.7433363795280457
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 9336,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 9336,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 50256,
+            "type": "SCALAR",
+            "max": [
+                9335.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 112032,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 112032,
+            "byteLength": 112032,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 224064,
+            "byteLength": 74688,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 298752,
+            "byteLength": 201024,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 499776,
+            "uri": "kitchen-table_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000046513243432855236,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.5582284927368166,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "b_round_kitchen_table_165_BaseColor",
+            "uri": "kitchen-table_images\\b_round_kitchen_table_165_BaseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "image",
+            "uri": "kitchen-table_images\\image.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "b_round_kitchen_table_165_Normal",
+            "uri": "kitchen-table_images\\b_round_kitchen_table_165_Normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "name": "b_round_kitchen_table_165_Mat",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "b_round_kitchen_table_165",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5,
+                0.29999998211860659,
+                0.5
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "mesh": 0,
+            "name": "b_round_kitchen_table_165"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "b_round_kitchen_table_165_Mat::baseColor::image",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "image",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "b_round_kitchen_table_165_Mat::normal::image",
+            "sampler": 2,
+            "source": 2
+        }
+    ],
+    "scene": 0
+}
